@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.image.pdf2reader" name="PDF to Reader" version="1.0.3" provider-name="YDRAGON">
+<addon id="plugin.image.pdf2reader" name="PDF to Reader" version="1.0.3.002" provider-name="YDRAGON">
   <requires>
     <import addon="xbmc.python" version="2.18.0"/>
     <import addon="script.module.pdf2image" version="1.4.1"/>
