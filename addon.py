@@ -1,5 +1,6 @@
 import os
 import xbmc
+import xbmcvfs
 import xbmcgui
 import xbmcplugin
 import xbmcaddon
@@ -23,15 +24,15 @@ class PdfReader(object):
         if addon_id != None:
             self._addon = xbmcaddon.Addon(addon_id)
             self._fanart = self._addon.getAddonInfo('fanart')
-            self._profile = xbmc.translatePath(self._addon.getAddonInfo('profile'))
+            self._profile = xbmcvfs.translatePath(self._addon.getAddonInfo('profile'))
             #data dir
-            dataDir = xbmc.translatePath(self._addon.getAddonInfo('profile')) + 'data'
+            dataDir = xbmcvfs.translatePath(self._addon.getAddonInfo('profile')) + 'data'
             if not os.path.exists(dataDir):
                 os.makedirs(dataDir)
             #files
             self._fileLast = dataDir + os.path.sep + last_file
             self._listLast = {}
-            self._tmpDir = xbmc.translatePath(self._addon.getAddonInfo('profile')) + 'tmp'
+            self._tmpDir = xbmcvfs.translatePath(self._addon.getAddonInfo('profile')) + 'tmp'
             if not os.path.exists(self._tmpDir):
                 os.makedirs(self._tmpDir)
             self._isdebug = SettingBoolToInt(self._addon.getSetting('use_debug'))
