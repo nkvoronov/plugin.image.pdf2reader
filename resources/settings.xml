@@ -5,6 +5,8 @@
 		<setting id="folder_pdf" type="folder" label="32002" default="" />
 		<setting id="dpi_pdf" type="number" label="32006" default="200" />
 		<setting id="thread_count" type="number" label="32007" default="1" />
+		<setting id="cropimage" type="bool" label="32008" default="0"/>
+		<setting id="offset" type="number" label="32009" default="0" visible="eq(-1,true)"/>		
 		<setting id="two_page" type="bool" label="32003" default="false" />
 		<setting id="main_page" type="bool" label="32004" default="false" visible="eq(-1,true)"/>
 		<setting id="use_debug" type="bool" label="32005" default="false" />

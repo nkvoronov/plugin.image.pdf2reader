@@ -25,11 +25,11 @@ msgid "Last"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Settings"
+msgid "Clear"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Clear"
+msgid "Settings"
 msgstr ""
 
 msgctxt "#30004"
@@ -66,4 +66,12 @@ msgstr ""
 
 msgctxt "#32007"
 msgid "Count thread"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Crop"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Offset"
 msgstr ""

@@ -24,13 +24,13 @@ msgctxt "#30001"
 msgid "Last"
 msgstr "Останні"
 
-msgctxt "#30002"
-msgid "Settings"
-msgstr "Налаштування"
-
 msgctxt "#30003"
 msgid "Clear"
 msgstr "Очистити"
+
+msgctxt "#30002"
+msgid "Settings"
+msgstr "Налаштування"
 
 msgctxt "#30004"
 msgid "Page "
@@ -67,3 +67,11 @@ msgstr "DPI"
 msgctxt "#32007"
 msgid "Count thread"
 msgstr "Кількість потоків"
+
+msgctxt "#32008"
+msgid "Crop"
+msgstr "Обрізка"
+
+msgctxt "#32009"
+msgid "Offset"
+msgstr "Відступ"
